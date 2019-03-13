@@ -1,0 +1,6 @@
+# Ignore output folder
+Output/
+
+# Ignore temporary files
+*.m~
+*.asv

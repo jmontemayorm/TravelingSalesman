@@ -16,11 +16,11 @@
 %% Settings
 % Data to load
 year = 2019; % 2018 or 2019
-dateNum = 5; % Date number, from 0 to 5
+dateNum = 2; % Date number, from 0 to 5
 
 % General settings
 maxIter = 1e8 * ones(1,6); % 100 M, might be overridden by timeout
-minsToTimeout = 3; % Number of minutes
+minsToTimeout = 2; % Number of minutes
 
 % Temperature settings (one per parallel process)
 initialTemp = [1 10 1 1 10 100];
